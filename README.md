@@ -3,16 +3,16 @@ Tutorial on how to do this, if you used this tutorial, please give an ⭐ star! 
 
 ## Overview
 
-When you create an GitHub project, normally theres **no link "area"**
+When you create a GitHub project, normally theres **no link indexed**
 
 ![image](https://github.com/user-attachments/assets/373d609b-323e-4b9d-b841-ad1ecf05b3ff)
 
-To make that link blue clickable text, you need to...
+To make that blue clickable link, you need to...
 
 - Click on the Settings button
 ![image](https://github.com/user-attachments/assets/822b5aff-edde-4803-b2b7-eeddb4ee1a71)
 
-- And THEM put your *valid* link
+- And THEN put your *valid* link
 ![image](https://github.com/user-attachments/assets/9892ffc1-903d-467f-a296-f018eee4c7a2)
 
 
@@ -25,25 +25,26 @@ _Right?_
 
 We all know what HTML is, so i will not explain.
 
-Github uses a BUNCH of HTML features to make the website working, like, defining that the `password` on the login page will not display the current password typed, etc.
+Github uses a BIG AMOUNT of HTML features to make the website working, eg.: defining that  `password` on the login page will not display the current password typed, etc.
 
-And the link feature also uses one of these fearues, in case `type="url"`.
+And the link feature also uses one of these features, in this case, `type="url"`.
 
 But **What if i change it?**
 
 ### Stage 1.1: Values
 
-Right-clicking the `textbox` area, i get this:
+Right-clicking the `textbox` area, i got this:
 ![image](https://github.com/user-attachments/assets/ea759eae-31f9-4e18-acc7-64b6082999eb)
 
 ``` html
 <input type="url" id="repo_homepage" class="color-bg-default form-control input-contrast width-full" name="repo_homepage" value="" placeholder="Enter a valid URL">
 ```
 
-You noticed the `input type="url"`, right? But, **what would happen if i DELETE this value?**
+You noticed the `input type="url"`, right? But, **what would happen if I DELETE this value?**
 ![image](https://github.com/user-attachments/assets/b9fac749-e169-43ae-b63e-9afc14d129c5)
 
 Nothing change, right?
+
 
 Well, lets test it...
 
